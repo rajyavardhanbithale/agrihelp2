@@ -1,0 +1,146 @@
+body{
+    background: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+img{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    margin-top: 10%;
+}
+
+.group{
+    width: 1100px;
+    margin: 0 auto;
+    display:  flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.group .list{
+    position: relative;
+    background: #ffffff;
+    width: 22%;
+    margin: 1.5%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px 0;
+    box-shadow: 2px 2px 4px 0 #00000038;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.group .list::after{
+    content:"";
+    width: 0;
+    height: 4px;
+    background: green;
+    transition: 0.2s;
+}
+
+.group .list:hover{
+    border-radius: 0;
+    box-shadow: 2px 2px 10px 0 #00000059;
+}
+
+.group .list:hover::after{
+    width: 100%;
+
+}
+
+.group .list .top{
+    height: 150px;
+    width: 100%;
+}
+
+.group .center .lable{
+   position: absolute;
+   top: 0;
+   right: 0;
+   display: inline-block;
+   font-size: 16px; 
+   margin: 8px;
+   padding: 4px 12px;
+   background: green;
+   color: #eee;
+   border-radius: 12px 0;
+}
+
+.group .center .title{
+    display: block;
+    font-size: 22px;
+    margin: 10px;
+    color: #222;
+    font-weight: 600;
+}
+
+.group .center.desc{
+    color: #555;
+    font-family: system-ui;
+    font-weight: 400;
+    margin: 2px 10px;
+}
+
+.group .center .title,
+.group .center.desc{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.group .list .footer{
+    position: relative;
+    padding: 10px 10px 10px 60px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.group .list .footer img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.group .list .footer .user-name{
+    color: #222;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: .pointer;;
+}
+
+.group .list .footer .post-date{
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: .pointer;
+}
+
+.desc{
+    padding: 20px;
+}
+
+@media screen and (max-width:1100px){
+    .group{width: 550px;}
+    .group .list{
+        width: 42%;
+        margin: 4%;
+    }
+}
+
+@media screen and(max-width:550px){
+    .group{width: 90%;}
+    .group .list{
+        width: 88%;
+        margin: 6%;
+    }
+}
