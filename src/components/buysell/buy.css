@@ -1,0 +1,28 @@
+
+
+.color-buy{
+    
+    display: inline-block;
+    margin-top: 32px;
+    padding: 0.8rem 1rem;
+    background-color: #25a569;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.301);
+    margin-bottom: 10px;
+    border-radius: 50px;
+    transition: all 1s;
+    width: 20%;
+    margin-bottom: 20px;
+    align-content: center;
+
+}
+
+.color-buy:hover{
+    display: inline-block;
+    padding: 1rem 1rem;
+    background-color: #1c6d47;
+    transition: all 1s;
+    width: 25%;
+}

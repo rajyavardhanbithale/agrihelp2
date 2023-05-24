@@ -1,0 +1,316 @@
+{
+    "agrihelp":{
+        "title" : "AgriHelp",
+        "sub" : "REVOLUTIONIZING FARMING WITH INNOVATIVE TECHNOLOGY SOLUTIONS A HELPING HAND FOR FARMERS 🤝"
+    },
+    "navbar":{
+        "home":"Home",
+        "weather":"Weather",
+        "soil":"crop recommendation",
+        "shop":"Shop",
+        "chat":"Chat Room",
+        "pest":"Pest Info",
+        "resources":"Resources",
+        "gov-scheme":"Government Scheme",
+        "about":"About",
+        "feedback":"Feedback",
+        "lang" :{
+            "title" : "Language",
+            "selected" :"Selected Language"
+        },
+        "buy" : "Buy-Sell"
+    },
+    "weather": {
+        "title": "Weather",
+        "input": "Enter your city",
+        "search": "Search",
+        "today": "Today's Weather",
+        "forecast": "Weather Forecast for the next 5 days",
+        "comp": {
+            "high": "High",
+            "low": "Low",
+            "wind": "Wind",
+            "rain": "Rain",
+            "sunrise": "Sunrise",
+            "sunset": "Sunset"
+        },
+        "day": {
+            "Mon": "Monday",
+            "Tue": "Tuesday",
+            "Wed": "Wednesday",
+            "Thu": "Thursday",
+            "Fri": "Friday",
+            "Sat": "Saturday",
+            "Sun": "Sunday"
+        },
+        "desc": {
+            "Clear Sky": "Clear Sky",
+            "Few Clouds": "Few Clouds",
+            "Clouds": "Clouds",
+            "Scattered Clouds": "Scattered Clouds",
+            "Broken Clouds": "Broken Clouds",
+            "Overcast Clouds": "Overcast Clouds",
+            "Mist": "Mist",
+            "Fog": "Fog",
+            "Light Rain": "Light Rain",
+            "Moderate Rain": "Moderate Rain",
+            "Heavy Rain": "Heavy Rain",
+            "Thunderstorm": "Thunderstorm",
+            "Snow": "Snow",
+            "Haze": "Haze",
+            "Smoke": "Smoke"
+        }
+    },
+    "main-shop": {
+        "main" : "AgriShop",
+        "Seeds Shop": "Seeds Shop",
+        "Fertilizer Shop": "Fertilizer Shop",
+        "Agriculture Equipment": "Agriculture Equipment",
+        "backToShop": "Back to Shop",
+        "buttonView": "View"
+    },
+    "click": "Click Here",
+    "buyItem": {
+        "Buy": "Buy"
+    },
+    "seed-shop": {
+        "seedShop": "Seed Shop"
+    },
+    "seedShopItems": [
+        {
+            "text": "Seed Basket (Seed Vendor Website)"
+        },
+        {
+            "text": "Ugav (Seed Vendor)"
+        },
+        {
+            "text": "Energy Seeds (Seed Vendor)"
+        },
+        {
+            "text": "National Seed Corporation"
+        },
+        {
+            "text": "Nursery"
+        },
+        {
+            "text": "Mera Bagicha (Seed Vendor)"
+        }
+    ],
+    "fertilizer-shop": {
+        "fertilizerShop": "Fertilizer Shop"
+    },
+    "fertilizerShopItems": [
+        {
+            "text": "Fertilizer Department, Government of India"
+        },
+        {
+            "text": "National Fertilizers Limited"
+        },
+        {
+            "text": "BigHaat"
+        },
+        {
+            "text": "Krishi Kendra"
+        },
+        {
+            "text": "IFFCO Bazaar"
+        },
+        {
+            "text": "AgriTel"
+        }
+    ],
+    "equip-shop": {
+        "equipmentShop": "Equipment Shop",
+        "backToShop": "Back to Shop",
+        "buttonView": "View"
+    },
+    "equipItems": [
+        {
+            "text": "Mahindra Farm Equipment"
+        },
+        {
+            "text": "Powertrack"
+        },
+        {
+            "text": "Tractor Junction"
+        },
+        {
+            "text": "Ichar Agri Solutions"
+        },
+        {
+            "text": "Kubota Agriculture Machinery India"
+        },
+        {
+            "text": "Sonali Agri Equipment"
+        }
+    ],
+    "cropreccom": {
+        "title": "Crop Recommendation",
+        "soil" : "Soil Testing",
+        "sub": "Please Provide The Necessary Information For Crop Recommendation.",
+        "nitrogen": "Nitrogen",
+        "phosphorus": "Phosphorus",
+        "potassium": "Potassium",
+        "phLevel": "PH Level",
+        "rain": "Rainfall (In Mm)",
+        "state": "State",
+        "city": "City",
+        "submit": "Submit"
+    },
+    "pest": {
+        "title": "pest information",
+        "pest-data": {
+            "des1": "Bollworm larva on boll. The cotton bollworm (a.k.a. corn earworm) is a serious pest in the southern cotton growing areas. In Kansas cotton, infestations are sometimes observed, although damage has been limited even when high infestations have developed in corn and grain sorghum.",
+            "des2": "Aphids Have Soft Pear-Shaped Bodies With Long Legs And Antennae And May Be Green, Yellow, Brown, Red, Or Black Depending On The Species And The Plants They Feed On. A Few Species Appear Waxy Or Woolly Due To The Secretion Of A Waxy White Or Gray Substance Over Their Body Surface.",
+            "des3": "Whiteflies Are Tiny, Sap-Sucking Insects That May Become Abundant In Vegetable And Ornamental Plantings, Especially During Warm Weather. They Excrete Sticky Honeydew And Cause Yellowing Or Death Of Leaves. Outbreaks Often Occur When The Natural Biological Control Is Disrupted.",
+            "des4": "Grasshoppers are an important source of food for many species of grassland birds. Recognizing pest from non-pest species can help in managing those grasshopper populations that are a potential threat to a crop while not harming non-pest species, which can have a valuable ecological role.",
+            "des5": "Leafhoppers are commonly brown, gray, green, or yellow overall or a mottled mix of coloration. Some species are brightly colored, while others blend with the color of their host plant(s). Leafhoppers are active insects that walk rapidly sideways or readily jump when disturbed.",
+            "des6": "Armyworms are caterpillar pests of grass pastures and cereal crops. They are the only caterpillars that growers are likely to encounter in cereal crops, although occasionally native budworm will also attack grain when underlying weed hosts dry out.",
+            "des7": "Termites threaten major crops, which form the basis of household nutrition in many countries such as wheat, maize, groundnut, sugarcane, yams and cassava. The most common termite species in India are Microtermes and Odontotermes.",
+            "des8": "Mites are serious pests in indoor and outdoor agricultural ecosystems and are controlled by synthetic pesticides. Pesticides adversely affect natural enemies and lead to environmental pollution, human health problems, harmful side effects, and risk of pest resistance.",
+            "des9": "Jassid is a sucking pest occurring throughout the crop growing period on cotton in all the zones. The pest injects toxins into leaves while feeding which results in abnormal changes in leaves - marginal chlorosis and reddening.",
+            "des10": "Stem borers constitute the most widely distributed and injurious group of insect pests of cereal crops. They are commonly known to be one of the limiting factors of cereal production worldwide. They are present in field throughout the crop growing stage from seedling to maturity."
+        }
+    },
+    "resources": {
+        "farming": {
+            "title": "Farming Techniques",
+            "sub": "Learn About Various Farming Techniques And Best Practices.",
+            "des1": "Organic Farming",
+            "des2": "Hydroponics",
+            "des3": "Permaculture",
+            "des4": "Intensive Farming",
+            "des5": "Vertical Farming"
+        },
+        "crop": {
+            "title": "Crop Management",
+            "sub": "Explore Crop Management Techniques For Better Yields.",
+            "des1": "Soil Preparation",
+            "des2": "Planting And Sowing",
+            "des3": "Irrigation Methods",
+            "des4": "Pest And Disease Control",
+            "des5": "Fertilizer Application"
+        },
+        "animal": {
+            "title": "Animal Husbandry",
+            "sub": "Discover Information About Raising Livestock.",
+            "des1": "Cattle Farming",
+            "des2": "Poultry Farming",
+            "des3": "Sheep And Goat Farming",
+            "des4": "Pig Farming",
+            "des5": "Fish Farming"
+        },
+        "tech": {
+            "title": "Agri-Tech",
+            "sub": "Stay Updated On The Latest Agricultural Technologies.",
+            "des1": "Smart Farming",
+            "des2": "Drones In Agriculture",
+            "des3": "Precision Agriculture",
+            "des4": "Robotics In Farming",
+            "des5": "IoT Applications In Agriculture"
+        }
+    },
+    "scheme": {
+        "title": "Government Scheme"
+    },
+    "backToHome": {
+        "title": "Back To Home"
+    },
+    "visit": {
+        "title": "visit"
+    },
+    "scheme-data": [
+        {
+            "text": "PMFBY",
+            "sub": "Pradhan Mantri Fasal Bima Yojana"
+        },
+        {
+            "text": "NAM",
+            "sub": "National Agriculture Market"
+        },
+        {
+            "text": "PMKSNY",
+            "sub": "PM kisan saman nidhi yogana"
+        },
+        {
+            "text": "SSY",
+            "sub": "sour sujala yogana"
+        },
+        {
+            "text": "PMKSY",
+            "sub": "PM krishi sinchai yojana"
+        }
+    ],
+    "about": {
+        "title": "About",
+        "contact": "contact",
+        "head": "Revolutionizing Farming With Innovative Technology Solutions A Helping Hand For Farmers 🤝",
+        "content": "A Comprehensive Online Platform for Farmers AGRIHELP is a one-stop solution for farmers that provides them with all the necessary information and services required for efficient and sustainable agriculture. This online platform offers a range of features, including weather information, pest control, soil analysis, farming tools, and services, all in one place.",
+        "name": "Name",
+        "email": "Email",
+        "github": "Github"
+    },
+
+    "feedback":{
+        "title":"Feedback",
+        "sub":"Your Feedback Is Important For Us!",
+        "form" : {
+            "email":"email",
+            "name":"name",
+            "place":"state/city",
+            "phone" : "Phone Number",
+            "write":"write your feedback"
+        }
+    },
+    "crop-data":{
+        "c1" : "Consider Adding",
+        "c2" : "Cultivation To Your Farm To Enhance Productivity And Take Advantage Of The Numerous Benefits This Crop Offers. Rice",
+        "about" : "About",
+        "advantages" : "Advantages",
+        "disadvantages" : "Disadvantages",
+        "method" : "Method To Grow",
+        "how" : "How To Grow",
+        "cost" : "Cost Of Growth",
+        "diff" : "Difficulty",
+        "other" : "Other Details"
+    },
+
+    "error":{
+        "404":{
+            "title":"OPPS! Page Not Found",
+            "num" : "404",
+            "sub":"We Are Sorry,But The Page You Requested Are Not Found",
+            "bth":"Back To Home "
+        }
+
+    },
+
+    "buy":{
+        "main" : "Buy-Sell",
+        "b1" : " register",
+        "buy": "buy",
+
+
+        "reg":"register your item",
+        "loc":"Town/City - State - pin",
+        "sell" : "Item To Sell",
+        "aadhar": "aadhar no.",
+        "av":"available items",
+
+        "frm":{
+            "so":"S No.",
+            "name":"Name",
+            "ph":"Phone No.",
+            "em":"Email",
+            "it":"Item",
+            "loc":"Location"
+
+        },
+        "dvc": "The app will go through your data verification as soon as the submit button is pressed, if your data is correct then we will add it."
+    },
+    "ext":{
+        "sat":"Satellite Weather (Latest)"
+    }
+
+
+}

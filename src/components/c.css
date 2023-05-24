@@ -1,0 +1,280 @@
+.about-text {
+    font-size: 24px;
+    font-size: larger;
+    color: rgb(37, 33, 33);
+}
+
+.about {
+    margin: 20px;
+}
+
+.about-sub {
+    text-decoration: none;
+    font-size: medium;
+}
+
+
+.about-main_text {
+    width: 700px;
+
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 5px;
+
+}
+
+.about-main_text p {
+    width: 700px;
+    margin-bottom: 20px;
+
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.about-main_text-heading {
+
+    font-size: 28px;
+    color: #19191b;
+    margin-bottom: 10px;
+}
+
+.about-txt {
+    font-size: 18px;
+}
+
+.about-txt-url {
+    font-size: 18px;
+    text-transform: none;
+}
+
+
+/* Feedback */
+
+* {
+
+    outline: none;
+
+}
+
+.feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+    padding: 20px;
+
+}
+
+.container-form {
+    max-width: 800px;
+    background: #fff;
+    width: 800px;
+    padding: 25px 40px 10px 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.11);
+    border-radius: 25px;
+}
+
+.container-form .text {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    /* background: -webkit-linear-gradient(right, #18c05e, rgb(4, 157, 4), #18c05e, rgb(4, 157, 4)); */
+    background: #25a569;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-form form {
+    padding: 30px 0 0 0;
+}
+
+.container-form form .form-row {
+    display: flex;
+    margin: 32px 0;
+}
+
+form .form-row .input-data {
+    width: 100%;
+    height: 40px;
+    margin: 0 20px;
+    position: relative;
+}
+
+form .form-row .textarea {
+    height: 70px;
+}
+
+.input-data input,
+.textarea textarea {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+.input-data input:focus~label,
+.textarea textarea:focus~label,
+.input-data input:valid~label,
+.textarea textarea:valid~label {
+    transform: translateY(-20px);
+    font-size: 14px;
+    color: #079530;
+}
+
+.textarea textarea {
+    resize: none;
+    padding-top: 10px;
+}
+
+.input-data label {
+    position: absolute;
+    pointer-events: none;
+    bottom: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.textarea label {
+    width: 100%;
+    bottom: 40px;
+    background: #fff;
+}
+
+.input-data .underline {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+}
+
+
+
+
+.submit-btn-cust {
+
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 30%;
+    padding: 0.5rem 1rem;
+    background-color: #25a569;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.301);
+    margin-bottom: 10px;
+    border-radius: 50px;
+    transition: all 1s;
+    width: 40%;
+    margin-bottom: 20px;
+    align-content: center;
+
+}
+
+.submit-btn-cust:hover {
+
+
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #1c6d47;
+    transition: all 1s;
+    width: 45%;
+
+}
+
+.mar {
+    margin-bottom: 50px;
+
+}
+
+@media (max-width: 700px) {
+    .container-form .text {
+        font-size: 30px;
+    }
+
+    .container-form form {
+        padding: 10px 0 0 0;
+    }
+
+    .container-form form .form-row {
+        display: block;
+    }
+
+    form .form-row .input-data {
+        margin: 35px 0 !important;
+    }
+
+    .submit-btn-cust .input-data {
+        width: 40%;
+
+    }
+
+}
+
+.sellang {
+    color: #fff;
+    margin-left: 21px;
+}
+
+
+
+@media (max-width: 1300px) {
+    .cust-mid {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cust-mid-mar {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+}
+
+
+.iframe-container-home {
+    position: relative;
+    text-align: center;
+    height: 300px;
+    /* Adjust the height of the iframe container as needed */
+}
+
+.text-overlay-home {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+
+}
+.text-overlay-home p {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 5px;
+
+    z-index: 100;
+    text-shadow: 2px 16px 16px rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+
+
+}
+
+@media (max-width:768px) {
+    .text-overlay-home p {
+        font-size: 30px;
+    }
+
+    .text-overlay-home {
+        position: absolute;
+        top: 100%;
+
+    
+    }
+}

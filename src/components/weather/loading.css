@@ -1,0 +1,243 @@
+.loader {
+    margin: 0px auto;
+    width: 120px;
+    min-width: 80px;
+    position: relative;
+    -moz-transition: width 0.2s;
+    -o-transition: width 0.2s;
+    -webkit-transition: width 0.2s;
+    transition: width 0.2s;
+}
+
+.loader:before {
+    display: block;
+    content: " ";
+    width: 100%;
+    padding-top: 100%;
+}
+
+.loader>.ar-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.loader .loader-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 40%;
+    height: 40%;
+    margin: auto;
+}
+
+.loader .loader-content:after {
+    content: '';
+    /* background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43064/loader-logo.png"); */
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.loader .loader-animation {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -moz-transform-origin: center center 50%;
+    -ms-transform-origin: center center 50%;
+    -webkit-transform-origin: center center 50%;
+    transform-origin: center center 50%;
+    -moz-animation: rotate 2s linear infinite;
+    -webkit-animation: rotate 2s linear infinite;
+    animation: rotate 2s linear infinite;
+}
+
+.loader .loader-animation>.loader-path {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: 0;
+    stroke-linecap: round;
+    -moz-animation: spin-trail 1.5s ease-in-out infinite, loader-color 6s ease-in-out infinite;
+    -webkit-animation: spin-trail 1.5s ease-in-out infinite, loader-color 6s ease-in-out infinite;
+    animation: spin-trail 1.5s ease-in-out infinite, loader-color 6s ease-in-out infinite;
+}
+
+.ie9 .loader .loader-path {
+    display: none;
+}
+
+.ie9 .loader .loader-content {
+    width: 80%;
+    height: 80%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.ie9 .loader .loader-content:after {
+    content: '';
+    /* background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43064/loader.gif") !important; */
+}
+
+.ie9 .loader .loader-animation {
+    animation: none;
+}
+
+@media only screen and (max-width: 640px) {
+    .loader {
+        width: 100px;
+        overflow: hidden;
+    }
+
+    .loader .loader-text {
+        font-size: 8px;
+        font-size: 0.5rem;
+    }
+}
+
+@-moz-keyframes rotate {
+    100% {
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate {
+    100% {
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin-trail {
+    0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -35;
+    }
+
+    100% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -124;
+    }
+}
+
+@-webkit-keyframes spin-trail {
+    0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -35;
+    }
+
+    100% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -124;
+    }
+}
+
+@keyframes spin-trail {
+    0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -35;
+    }
+
+    100% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -124;
+    }
+}
+
+@-moz-keyframes loader-color {
+
+    100%,
+    0% {
+        stroke: #222529;
+    }
+
+    40% {
+        stroke: #539cbd;
+    }
+
+    66% {
+        stroke: #384b64;
+    }
+
+    80%,
+    90% {
+        stroke: #798e97;
+    }
+}
+
+@-webkit-keyframes loader-color {
+
+    100%,
+    0% {
+        stroke: #222529;
+    }
+
+    40% {
+        stroke: #539cbd;
+    }
+
+    66% {
+        stroke: #384b64;
+    }
+
+    80%,
+    90% {
+        stroke: #798e97;
+    }
+}
+
+@keyframes loader-color {
+
+    100%,
+    0% {
+        stroke: #222529;
+    }
+
+    40% {
+        stroke: #539cbd;
+    }
+
+    66% {
+        stroke: #384b64;
+    }
+
+    80%,
+    90% {
+        stroke: #798e97;
+    }
+}
