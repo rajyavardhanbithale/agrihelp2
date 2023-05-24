@@ -68,7 +68,7 @@ Start the server on developement\
 ``` npm run dev ``` 
 
 To Build\
-``` npm run build ```\
+``` npm run build ```
 
 
 Or if you want run to directly without npm you can download it from *Release Page*\
