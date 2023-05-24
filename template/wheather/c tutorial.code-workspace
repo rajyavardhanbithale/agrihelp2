@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../c tutorial"
+		},
+		{
+			"path": "../../w1"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../translation"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "w1"
+	}
+}
