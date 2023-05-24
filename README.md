@@ -76,10 +76,11 @@ Or if you want run to directly without npm you can download it from *Release Pag
 
 ## Screenshort
 ![alt text](/image/image1.png)
+![alt text](/image/image5.png)
 ![alt text](/image/image2.png)
 ![alt text](/image/image3.png)
 ![alt text](/image/image4.png)
-![alt text](/image/image5.png)
+
 
 
 ### Contact 
