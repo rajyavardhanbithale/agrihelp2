@@ -1,0 +1,12 @@
+
+{
+    "box_heading": "विवरण भरें",
+    "box_element": {
+        "box_element1": "नाम",
+        "box_element2": "राज्य/शहर",
+        "box_element3": "ईमेल पता",
+        "box_element4": "फोन नंबर",
+        "box_element5": "फसल"
+    },
+    "last": "सबमिट करें"
+}

@@ -1,0 +1,15 @@
+
+{
+    "main_heading": "फसल सिफारिश के लिए आवश्यक जानकारी दें",
+    "box_heading": "विवरण भरें",
+    "box_element": {
+        "box_element1": "नाइट्रोजन",
+        "box_element2": "फॉस्फोरस",
+        "box_element3": "पोटाशियम",
+        "box_element4": "पीएच स्तर",
+        "box_element5": "वर्षा (मिलीमीटर में)",
+        "box_element6": "राज्य",
+        "box_element7": "शहर"
+    },
+    "last": "सबमिट करें"
+}

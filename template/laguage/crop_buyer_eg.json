@@ -1,0 +1,12 @@
+{
+    "box_heading":"Fill Up The Details",
+    "box_element" :{
+        "box_element1":"Name",
+        "box_element2":"State/City",
+        "box_element3":"Email Address",
+        "box_element4":"Phone Number",
+        "box_element5":"crop"
+
+    },
+    "last":"submit"
+}
