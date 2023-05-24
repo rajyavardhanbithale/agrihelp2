@@ -1,0 +1,38 @@
+{
+    "type": "Farming Techniques",
+    "discription": "Learn about various farming techniques and best practices.",
+    "element": {
+        "element_1": "Organic farmin",
+        "element_2": " Hydroponics",
+        "element_3": "Permaculture",
+        "element_4": " Intensive farming",
+        "element_5": " Vertical farming"
+    },
+    "type1": "Crop Management ",
+    "discription1": "Explore crop management techniques for better yields.",
+    "element_2": {
+        "element2_1": "Soil preparation",
+        "element2_2": " Planting and sowing",
+        "element2_3": "Irrigation methods",
+        "element2_4": "Pest and disease control",
+        "element2_5": "Fertilizer application" 
+    },
+    "type3": "Animal husbandary",
+    "discription3": "Discover information about raising livestock.",
+    "element3": {
+        "element3_1": "Cattle farming",
+        "element3_2": "Poultry farming",
+        "element3_3": "Sheep and goat farming",
+        "element3_4": "Pig farming",
+        "element3_5": "Fish farming"
+    },
+    "type4": "Agri-Tech",
+    "discription4": "Stay updated on the latest agricultural technologies.",
+    "element4": {
+        "element4_1": "Smart farming",
+        "element4_2": "Drones in agriculture",
+        "element4_3": "Precision agriculture",
+        "element4_4": "Robotics in farming",
+        "element4_5": "IoT applications in agriculture"
+    }
+}

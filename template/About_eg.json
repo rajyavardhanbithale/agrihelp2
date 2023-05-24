@@ -1,0 +1,26 @@
+{
+    "main_heading":"About Us",
+    "title":"Revolutionizing Farming With Innovative Technology Solutions A Helping Hand For Farmers ",
+    "sub_title":"AGRIHELP - A Comprehensive Online Platform for Farmers",
+    "para":"AGRIHELP is a one-stop solution for farmers that provides them with all the necessary information and services required for efficient and sustainable agriculture. This online platform offers a range of features, including weather information, pest control, soil analysis, farming tools, and services, all in one place.",
+
+    "contact":"Contact",
+    "contact_detail":{
+
+        "contact_detail_name":"Siddhant Dewangan",
+        "contact_detail_mail":"E-mail",
+        "contact_detail_Github":"Github",
+
+        "contact_detail_name1":"Vedant Sahu",
+        "contact_detail_mail1":"E-mail",
+        "contact_detail_Github1":"Github",
+
+        "contact_detail_name2":"Rajyavardhan Bithale",
+        "contact_detail_mail2":"E-mail",
+        "contact_detail_Github2":"Githib"
+    
+    
+    }
+
+
+}

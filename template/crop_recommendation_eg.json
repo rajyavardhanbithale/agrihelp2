@@ -1,0 +1,15 @@
+{
+    "main_heading": "Give The Required Information For Crop Recommendation",
+    "box_heading":"Fill Up The Details",
+    "box_element" :{
+        "box_element1":"Nitrogen",
+        "box_element2":"phosphorus",
+        "box_element3":"potassium",
+        "box_element4":"ph level",
+        "box_element5":"Rainfall(in mm)",
+        "box_element6":"state",
+        "box_element7":"city"
+
+    },
+    "last":"submit"
+}
