@@ -3,7 +3,8 @@ Agritech-based websites typically focus on providing information.
 Farming and agriculture-related resources and services. Websites like this can justifiably prove that
 Different target groups such as farmers, agricultural professionals and interested people
 Learn about sustainable farming practices. here,
-Agriculture-based websites may include: Our web app is available in multiple languages.Farmers easily understand it.
+Agriculture-based websites may include: Our web app is available in multiple languages.Farmers easily understand it.\
+**Supports a variety of Native Languages**
 
 URL - https://agrihelp.online/
 
