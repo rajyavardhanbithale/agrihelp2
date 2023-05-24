@@ -1,29 +1,37 @@
+.submit-btn-cust-1 {
 
-
-
-.color-error-crop1{
-    
+    margin-top: 50px;
     display: inline-block;
-    margin-top: 32px;
-    padding: 0.8rem 1rem;
-    background-color: rgb(37, 165, 105);
-    color: #302c2c;
+
+    padding: 0.5rem 1rem;
+    background-color: #25a569;
+    color: #fff;
     border: none;
     text-decoration: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.301);
     margin-bottom: 10px;
     border-radius: 50px;
     transition: all 1s;
-    width: 100%;
+    width: 80%;
+    margin-left: 25px;
     margin-bottom: 20px;
     align-content: center;
+    text-align: center;
 
 }
 
-.color-error-crop1:hover{
+.submit-btn-cust-1:hover {
+
+
     display: inline-block;
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
     background-color: #1c6d47;
     transition: all 1s;
-    width: 105%;
+    width: 90%;
+
+}
+
+.inp{
+    background-color: #e9e9e9;
+   
 }

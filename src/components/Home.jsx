@@ -16,7 +16,7 @@ function Home() {
         ref={iframeRef}
       />
         <div class="text-overlay-home">
-      <p>{t("agrihelp.sub")}</p>
+      <p className="text-overlay-home-p">{t("agrihelp.sub")}</p>
     </div>
     </div>
   );

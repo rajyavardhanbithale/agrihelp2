@@ -251,7 +251,7 @@ form .form-row .textarea {
     width: 80%;
 
 }
-.text-overlay-home p {
+.text-overlay-home-p {
     color: #ffffff;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
@@ -267,8 +267,8 @@ form .form-row .textarea {
 }
 
 @media (max-width:768px) {
-    .text-overlay-home p {
-        font-size: 30px;
+    .text-overlay-home-p {
+        font-size: 15px;
     }
 
     .text-overlay-home {
